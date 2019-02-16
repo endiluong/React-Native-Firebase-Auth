@@ -5,7 +5,7 @@ class MainPage extends React.Component{
    render(){
       return(
          <View>
-            <Text> Main Page</Text>
+            <Text> Main Page</Text>            
          </View>
       )
    }

@@ -14,7 +14,7 @@ const AppNavigator = createStackNavigator(
   },
   {
     // Set Entry page
-    initialRouteName: "Signup"
+    initialRouteName: "Login"
   }
 );
 

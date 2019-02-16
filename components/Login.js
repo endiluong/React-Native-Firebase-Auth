@@ -94,6 +94,9 @@ class Login extends React.Component {
             style={styles.input}
             underlineColorAndroid="transparent"
             placeholder="Password"
+            secureTextEntry = {
+              true
+            }
             placeholderTextColor="orange"
             autoCapitalize="none"
             onChangeText={password => this.setState({ password })}
